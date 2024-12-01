@@ -1,7 +1,15 @@
 use std::collections::HashMap;
 
+#[allow(dead_code)]
 const SIMPLE_INPUT: &str = include_str!("./../../inputs/day-01/simple.txt");
+#[allow(dead_code)]
 const FULL_INPUT: &str = include_str!("./../../inputs/day-01/full.txt");
+
+fn main() {
+    let input = read_input(FULL_INPUT);
+    println!("Result for star 1 is {}", star1(&input));
+    println!("Result for star 2 is {}", star2(&input));
+}
 
 fn star1(input: &(Vec<i32>, Vec<i32>)) -> usize {
     let mut left_list = input.0.clone();
