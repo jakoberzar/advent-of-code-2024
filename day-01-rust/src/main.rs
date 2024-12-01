@@ -3,10 +3,6 @@ use std::collections::HashMap;
 const SIMPLE_INPUT: &str = include_str!("./../../inputs/day-01/simple.txt");
 const FULL_INPUT: &str = include_str!("./../../inputs/day-01/full.txt");
 
-fn main() {
-    let input = read_input(FULL_INPUT);
-}
-
 fn star1(input: &(Vec<i32>, Vec<i32>)) -> usize {
     let mut left_list = input.0.clone();
     let mut right_list = input.1.clone();
@@ -58,6 +54,7 @@ fn count_map(list: &[i32]) -> HashMap<i32, usize> {
 mod tests {
     use super::*;
 
+    #[test]
     fn simple_star1() {
         let input = read_input(SIMPLE_INPUT);
         let result = star1(&input);
