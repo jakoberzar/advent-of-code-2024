@@ -6,3 +6,4 @@ Solutions will primarily be in Go.
 | --- | ---------------- | --- | ---- |
 | 1   | Location Lists   |     | ✔️   |
 | 2   | Problem Dampener |     | ✔️   |
+| 3   | Multiplying      | ✔️  |      |
