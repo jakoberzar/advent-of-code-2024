@@ -1,0 +1,1218 @@
+
+running 4 tests
+test tests::simple_star2 ... ok
+test tests::simple_star1 ... ok
+test tests::full_star2 ... FAILED
+test tests::full_star1 ... ok
+
+failures:
+
+---- tests::full_star2 stdout ----
+Failed [40, 42, 45, 46, 49, 47] at 5
+Ok [40, 42, 45, 46, 47]
+
+Failed [65, 66, 68, 71, 72, 72] at 5
+Ok [65, 66, 68, 71, 72]
+
+Failed [44, 46, 49, 52, 55, 59] at 5
+Still fail [44, 46, 49, 52, 59]
+Ok [44, 46, 49, 52, 55]
+
+Failed [62, 63, 66, 68, 71, 74, 80] at 6
+Still fail [62, 63, 66, 68, 71, 80]
+Ok [62, 63, 66, 68, 71, 74]
+
+Failed [20, 23, 25, 24, 26] at 3
+Ok [20, 23, 24, 26]
+
+Failed [37, 38, 35, 38, 39, 38] at 2
+Still fail [37, 35, 38, 39, 38]
+Couldn't fix [37, 38, 38, 39, 38]
+
+Failed [82, 83, 80, 82, 83, 83] at 2
+Still fail [82, 80, 82, 83, 83]
+Couldn't fix [82, 83, 82, 83, 83]
+
+Failed [69, 72, 75, 74, 77, 79, 83] at 3
+Still fail [69, 72, 74, 77, 79, 83]
+Couldn't fix [69, 72, 75, 77, 79, 83]
+
+Failed [23, 26, 24, 27, 34] at 2
+Still fail [23, 24, 27, 34]
+Couldn't fix [23, 26, 27, 34]
+
+Failed [59, 62, 62, 65, 67] at 2
+Ok [59, 62, 65, 67]
+
+Failed [21, 24, 24, 27, 30, 32, 29] at 2
+Still fail [21, 24, 27, 30, 32, 29]
+Couldn't fix [21, 24, 27, 30, 32, 29]
+
+Failed [56, 57, 58, 59, 59, 62, 62] at 4
+Still fail [56, 57, 58, 59, 62, 62]
+Couldn't fix [56, 57, 58, 59, 62, 62]
+
+Failed [72, 75, 77, 77, 81] at 3
+Still fail [72, 75, 77, 81]
+Couldn't fix [72, 75, 77, 81]
+
+Failed [79, 81, 81, 83, 86, 93] at 2
+Still fail [79, 81, 83, 86, 93]
+Couldn't fix [79, 81, 83, 86, 93]
+
+Failed [6, 8, 11, 12, 16, 17] at 4
+Still fail [6, 8, 11, 16, 17]
+Couldn't fix [6, 8, 11, 12, 17]
+
+Failed [85, 86, 88, 92, 92] at 3
+Still fail [85, 86, 92, 92]
+Couldn't fix [85, 86, 88, 92]
+
+Failed [3, 5, 6, 8, 12, 18] at 4
+Still fail [3, 5, 6, 12, 18]
+Couldn't fix [3, 5, 6, 8, 18]
+
+Failed [48, 51, 54, 61, 63] at 3
+Still fail [48, 51, 61, 63]
+Couldn't fix [48, 51, 54, 63]
+
+Failed [61, 60, 62, 64, 66, 67, 68] at 2
+Ok [61, 62, 64, 66, 67, 68]
+
+Failed [19, 17, 18, 21, 20] at 2
+Still fail [19, 18, 21, 20]
+Couldn't fix [19, 17, 21, 20]
+
+Failed [94, 92, 95, 97, 98, 98] at 2
+Still fail [94, 95, 97, 98, 98]
+Couldn't fix [94, 92, 97, 98, 98]
+
+Failed [75, 72, 74, 75, 78, 82] at 2
+Still fail [75, 74, 75, 78, 82]
+Couldn't fix [75, 72, 75, 78, 82]
+
+Failed [49, 48, 50, 51, 56] at 2
+Still fail [49, 50, 51, 56]
+Couldn't fix [49, 48, 51, 56]
+
+Failed [42, 39, 40, 41, 40, 41, 44] at 2
+Still fail [42, 40, 41, 40, 41, 44]
+Couldn't fix [42, 39, 41, 40, 41, 44]
+
+Failed [42, 40, 42, 41, 42, 40] at 2
+Still fail [42, 42, 41, 42, 40]
+Couldn't fix [42, 40, 41, 42, 40]
+
+Failed [70, 67, 64, 66, 66] at 3
+Still fail [70, 67, 66, 66]
+Couldn't fix [70, 67, 64, 66]
+
+Failed [50, 48, 49, 48, 51, 55] at 2
+Still fail [50, 49, 48, 51, 55]
+Couldn't fix [50, 48, 48, 51, 55]
+
+Failed [66, 65, 68, 66, 67, 69, 75] at 2
+Still fail [66, 68, 66, 67, 69, 75]
+Couldn't fix [66, 65, 66, 67, 69, 75]
+
+Failed [91, 88, 88, 89, 90, 91, 92] at 2
+Still fail [91, 88, 89, 90, 91, 92]
+Couldn't fix [91, 88, 89, 90, 91, 92]
+
+Failed [28, 25, 27, 29, 29, 31, 32, 31] at 2
+Still fail [28, 27, 29, 29, 31, 32, 31]
+Couldn't fix [28, 25, 29, 29, 31, 32, 31]
+
+Failed [77, 74, 75, 75, 75] at 2
+Still fail [77, 75, 75, 75]
+Couldn't fix [77, 74, 75, 75]
+
+Failed [86, 83, 85, 85, 88, 92] at 2
+Still fail [86, 85, 85, 88, 92]
+Couldn't fix [86, 83, 85, 88, 92]
+
+Failed [26, 23, 24, 24, 27, 33] at 2
+Still fail [26, 24, 24, 27, 33]
+Couldn't fix [26, 23, 24, 27, 33]
+
+Failed [48, 45, 47, 51, 54, 56, 58] at 2
+Still fail [48, 47, 51, 54, 56, 58]
+Couldn't fix [48, 45, 51, 54, 56, 58]
+
+Failed [43, 41, 42, 43, 46, 50, 49] at 2
+Still fail [43, 42, 43, 46, 50, 49]
+Couldn't fix [43, 41, 43, 46, 50, 49]
+
+Failed [20, 19, 22, 25, 26, 30, 30] at 2
+Still fail [20, 22, 25, 26, 30, 30]
+Couldn't fix [20, 19, 25, 26, 30, 30]
+
+Failed [11, 10, 14, 15, 19] at 2
+Still fail [11, 14, 15, 19]
+Couldn't fix [11, 10, 15, 19]
+
+Failed [19, 17, 20, 23, 26, 30, 37] at 2
+Still fail [19, 20, 23, 26, 30, 37]
+Couldn't fix [19, 17, 23, 26, 30, 37]
+
+Failed [23, 20, 21, 24, 26, 31, 34, 36] at 2
+Still fail [23, 21, 24, 26, 31, 34, 36]
+Couldn't fix [23, 20, 24, 26, 31, 34, 36]
+
+Failed [94, 91, 96, 99, 97] at 2
+Still fail [94, 96, 99, 97]
+Couldn't fix [94, 91, 99, 97]
+
+Failed [88, 86, 88, 89, 92, 98, 98] at 2
+Still fail [88, 88, 89, 92, 98, 98]
+Couldn't fix [88, 86, 89, 92, 98, 98]
+
+Failed [19, 16, 18, 21, 27, 29, 32, 36] at 2
+Still fail [19, 18, 21, 27, 29, 32, 36]
+Couldn't fix [19, 16, 21, 27, 29, 32, 36]
+
+Failed [69, 66, 67, 69, 75, 80] at 2
+Still fail [69, 67, 69, 75, 80]
+Couldn't fix [69, 66, 69, 75, 80]
+
+Failed [2, 2, 3, 6, 7, 8, 9, 10] at 1
+Ok [2, 3, 6, 7, 8, 9, 10]
+
+Failed [69, 69, 70, 72, 74, 75, 76, 75] at 1
+Still fail [69, 70, 72, 74, 75, 76, 75]
+Couldn't fix [69, 70, 72, 74, 75, 76, 75]
+
+Failed [23, 23, 26, 29, 29] at 1
+Still fail [23, 26, 29, 29]
+Couldn't fix [23, 26, 29, 29]
+
+Failed [15, 15, 17, 19, 21, 22, 24, 28] at 1
+Still fail [15, 17, 19, 21, 22, 24, 28]
+Couldn't fix [15, 17, 19, 21, 22, 24, 28]
+
+Failed [34, 34, 35, 38, 44] at 1
+Still fail [34, 35, 38, 44]
+Couldn't fix [34, 35, 38, 44]
+
+Failed [45, 45, 43, 45, 48] at 1
+Still fail [45, 43, 45, 48]
+Couldn't fix [45, 43, 45, 48]
+
+Failed [52, 52, 54, 56, 54, 57, 56] at 1
+Still fail [52, 54, 56, 54, 57, 56]
+Couldn't fix [52, 54, 56, 54, 57, 56]
+
+Failed [7, 7, 6, 8, 10, 13, 15, 15] at 1
+Still fail [7, 6, 8, 10, 13, 15, 15]
+Couldn't fix [7, 6, 8, 10, 13, 15, 15]
+
+Failed [81, 81, 84, 83, 87] at 1
+Still fail [81, 84, 83, 87]
+Couldn't fix [81, 84, 83, 87]
+
+Failed [65, 65, 63, 65, 70] at 1
+Still fail [65, 63, 65, 70]
+Couldn't fix [65, 63, 65, 70]
+
+Failed [23, 23, 24, 25, 25, 27, 29] at 1
+Still fail [23, 24, 25, 25, 27, 29]
+Couldn't fix [23, 24, 25, 25, 27, 29]
+
+Failed [20, 20, 22, 22, 19] at 1
+Still fail [20, 22, 22, 19]
+Couldn't fix [20, 22, 22, 19]
+
+Failed [2, 2, 4, 6, 6, 6] at 1
+Still fail [2, 4, 6, 6, 6]
+Couldn't fix [2, 4, 6, 6, 6]
+
+Failed [45, 45, 48, 49, 52, 55, 55, 59] at 1
+Still fail [45, 48, 49, 52, 55, 55, 59]
+Couldn't fix [45, 48, 49, 52, 55, 55, 59]
+
+Failed [74, 74, 76, 76, 79, 82, 87] at 1
+Still fail [74, 76, 76, 79, 82, 87]
+Couldn't fix [74, 76, 76, 79, 82, 87]
+
+Failed [4, 4, 8, 11, 12, 14] at 1
+Still fail [4, 8, 11, 12, 14]
+Couldn't fix [4, 8, 11, 12, 14]
+
+Failed [38, 38, 41, 43, 47, 44] at 1
+Still fail [38, 41, 43, 47, 44]
+Couldn't fix [38, 41, 43, 47, 44]
+
+Failed [80, 80, 81, 83, 87, 87] at 1
+Still fail [80, 81, 83, 87, 87]
+Couldn't fix [80, 81, 83, 87, 87]
+
+Failed [3, 3, 6, 8, 10, 12, 16, 20] at 1
+Still fail [3, 6, 8, 10, 12, 16, 20]
+Couldn't fix [3, 6, 8, 10, 12, 16, 20]
+
+Failed [31, 31, 32, 36, 42] at 1
+Still fail [31, 32, 36, 42]
+Couldn't fix [31, 32, 36, 42]
+
+Failed [81, 81, 82, 88, 91, 94, 97, 98] at 1
+Still fail [81, 82, 88, 91, 94, 97, 98]
+Couldn't fix [81, 82, 88, 91, 94, 97, 98]
+
+Failed [36, 36, 37, 38, 44, 41] at 1
+Still fail [36, 37, 38, 44, 41]
+Couldn't fix [36, 37, 38, 44, 41]
+
+Failed [2, 2, 3, 8, 8] at 1
+Still fail [2, 3, 8, 8]
+Couldn't fix [2, 3, 8, 8]
+
+Failed [63, 63, 69, 72, 76] at 1
+Still fail [63, 69, 72, 76]
+Couldn't fix [63, 69, 72, 76]
+
+Failed [2, 2, 7, 10, 15] at 1
+Still fail [2, 7, 10, 15]
+Couldn't fix [2, 7, 10, 15]
+
+Failed [19, 23, 26, 29, 31, 32] at 1
+Ok [23, 26, 29, 31, 32]
+
+Failed [51, 55, 56, 59, 62, 65, 63] at 1
+Still fail [55, 56, 59, 62, 65, 63]
+Couldn't fix [51, 56, 59, 62, 65, 63]
+
+Failed [52, 56, 59, 60, 62, 64, 64] at 1
+Still fail [56, 59, 60, 62, 64, 64]
+Couldn't fix [52, 59, 60, 62, 64, 64]
+
+Failed [71, 75, 77, 79, 81, 85] at 1
+Still fail [75, 77, 79, 81, 85]
+Couldn't fix [71, 77, 79, 81, 85]
+
+Failed [7, 11, 12, 15, 18, 21, 26] at 1
+Still fail [11, 12, 15, 18, 21, 26]
+Couldn't fix [7, 12, 15, 18, 21, 26]
+
+Failed [32, 36, 33, 36, 37, 40, 43, 46] at 1
+Still fail [36, 33, 36, 37, 40, 43, 46]
+Ok [32, 33, 36, 37, 40, 43, 46]
+
+Failed [40, 44, 42, 43, 46, 48, 51, 49] at 1
+Still fail [44, 42, 43, 46, 48, 51, 49]
+Couldn't fix [40, 42, 43, 46, 48, 51, 49]
+
+Failed [14, 18, 21, 24, 21, 21] at 1
+Still fail [18, 21, 24, 21, 21]
+Couldn't fix [14, 21, 24, 21, 21]
+
+Failed [27, 31, 29, 30, 32, 34, 38] at 1
+Still fail [31, 29, 30, 32, 34, 38]
+Couldn't fix [27, 29, 30, 32, 34, 38]
+
+Failed [56, 60, 61, 64, 66, 69, 66, 72] at 1
+Still fail [60, 61, 64, 66, 69, 66, 72]
+Couldn't fix [56, 61, 64, 66, 69, 66, 72]
+
+Failed [73, 77, 79, 79, 81, 83, 84] at 1
+Still fail [77, 79, 79, 81, 83, 84]
+Couldn't fix [73, 79, 79, 81, 83, 84]
+
+Failed [5, 9, 10, 13, 14, 14, 17, 16] at 1
+Still fail [9, 10, 13, 14, 14, 17, 16]
+Couldn't fix [5, 10, 13, 14, 14, 17, 16]
+
+Failed [33, 37, 38, 41, 41, 41] at 1
+Still fail [37, 38, 41, 41, 41]
+Couldn't fix [33, 38, 41, 41, 41]
+
+Failed [64, 68, 70, 70, 73, 77] at 1
+Still fail [68, 70, 70, 73, 77]
+Couldn't fix [64, 70, 70, 73, 77]
+
+Failed [34, 38, 40, 42, 43, 43, 48] at 1
+Still fail [38, 40, 42, 43, 43, 48]
+Couldn't fix [34, 40, 42, 43, 43, 48]
+
+Failed [46, 50, 53, 55, 59, 62] at 1
+Still fail [50, 53, 55, 59, 62]
+Couldn't fix [46, 53, 55, 59, 62]
+
+Failed [71, 75, 79, 82, 79] at 1
+Still fail [75, 79, 82, 79]
+Couldn't fix [71, 79, 82, 79]
+
+Failed [38, 42, 46, 49, 51, 51] at 1
+Still fail [42, 46, 49, 51, 51]
+Couldn't fix [38, 46, 49, 51, 51]
+
+Failed [59, 63, 66, 70, 74] at 1
+Still fail [63, 66, 70, 74]
+Couldn't fix [59, 66, 70, 74]
+
+Failed [82, 86, 90, 91, 97] at 1
+Still fail [86, 90, 91, 97]
+Couldn't fix [82, 90, 91, 97]
+
+Failed [22, 26, 28, 33, 36, 37] at 1
+Still fail [26, 28, 33, 36, 37]
+Couldn't fix [22, 28, 33, 36, 37]
+
+Failed [64, 68, 73, 76, 74] at 1
+Still fail [68, 73, 76, 74]
+Couldn't fix [64, 73, 76, 74]
+
+Failed [65, 69, 71, 72, 78, 78] at 1
+Still fail [69, 71, 72, 78, 78]
+Couldn't fix [65, 71, 72, 78, 78]
+
+Failed [20, 24, 27, 30, 36, 40] at 1
+Still fail [24, 27, 30, 36, 40]
+Couldn't fix [20, 27, 30, 36, 40]
+
+Failed [65, 69, 72, 75, 77, 83, 84, 89] at 1
+Still fail [69, 72, 75, 77, 83, 84, 89]
+Couldn't fix [65, 72, 75, 77, 83, 84, 89]
+
+Failed [6, 13, 16, 18, 20] at 1
+Ok [13, 16, 18, 20]
+
+Failed [32, 39, 41, 43, 44, 42] at 1
+Still fail [39, 41, 43, 44, 42]
+Couldn't fix [32, 41, 43, 44, 42]
+
+Failed [52, 57, 59, 61, 64, 66, 66] at 1
+Still fail [57, 59, 61, 64, 66, 66]
+Couldn't fix [52, 59, 61, 64, 66, 66]
+
+Failed [80, 87, 90, 91, 93, 95, 99] at 1
+Still fail [87, 90, 91, 93, 95, 99]
+Couldn't fix [80, 90, 91, 93, 95, 99]
+
+Failed [22, 29, 32, 35, 38, 43] at 1
+Still fail [29, 32, 35, 38, 43]
+Couldn't fix [22, 32, 35, 38, 43]
+
+Failed [86, 92, 94, 91, 92] at 1
+Still fail [92, 94, 91, 92]
+Couldn't fix [86, 94, 91, 92]
+
+Failed [81, 87, 88, 89, 87, 88, 86] at 1
+Still fail [87, 88, 89, 87, 88, 86]
+Couldn't fix [81, 88, 89, 87, 88, 86]
+
+Failed [22, 27, 28, 31, 33, 30, 32, 32] at 1
+Still fail [27, 28, 31, 33, 30, 32, 32]
+Couldn't fix [22, 28, 31, 33, 30, 32, 32]
+
+Failed [7, 13, 15, 14, 18] at 1
+Still fail [13, 15, 14, 18]
+Couldn't fix [7, 15, 14, 18]
+
+Failed [52, 59, 60, 61, 58, 64] at 1
+Still fail [59, 60, 61, 58, 64]
+Couldn't fix [52, 60, 61, 58, 64]
+
+Failed [32, 38, 38, 41, 44, 47, 49] at 1
+Still fail [38, 38, 41, 44, 47, 49]
+Couldn't fix [32, 38, 41, 44, 47, 49]
+
+Failed [25, 32, 33, 34, 34, 35, 36, 35] at 1
+Still fail [32, 33, 34, 34, 35, 36, 35]
+Couldn't fix [25, 33, 34, 34, 35, 36, 35]
+
+Failed [68, 73, 75, 75, 77, 80, 82, 82] at 1
+Still fail [73, 75, 75, 77, 80, 82, 82]
+Couldn't fix [68, 75, 75, 77, 80, 82, 82]
+
+Failed [79, 84, 87, 87, 91] at 1
+Still fail [84, 87, 87, 91]
+Couldn't fix [79, 87, 87, 91]
+
+Failed [25, 30, 31, 34, 35, 35, 42] at 1
+Still fail [30, 31, 34, 35, 35, 42]
+Couldn't fix [25, 31, 34, 35, 35, 42]
+
+Failed [2, 7, 9, 13, 15, 17, 18, 19] at 1
+Still fail [7, 9, 13, 15, 17, 18, 19]
+Couldn't fix [2, 9, 13, 15, 17, 18, 19]
+
+Failed [11, 18, 22, 23, 22] at 1
+Still fail [18, 22, 23, 22]
+Couldn't fix [11, 22, 23, 22]
+
+Failed [4, 9, 12, 13, 16, 18, 22, 22] at 1
+Still fail [9, 12, 13, 16, 18, 22, 22]
+Couldn't fix [4, 12, 13, 16, 18, 22, 22]
+
+Failed [48, 53, 54, 58, 61, 65] at 1
+Still fail [53, 54, 58, 61, 65]
+Couldn't fix [48, 54, 58, 61, 65]
+
+Failed [11, 16, 20, 21, 24, 29] at 1
+Still fail [16, 20, 21, 24, 29]
+Couldn't fix [11, 20, 21, 24, 29]
+
+Failed [10, 15, 22, 24, 26] at 1
+Still fail [15, 22, 24, 26]
+Couldn't fix [10, 22, 24, 26]
+
+Failed [6, 12, 14, 21, 23, 26, 24] at 1
+Still fail [12, 14, 21, 23, 26, 24]
+Couldn't fix [6, 14, 21, 23, 26, 24]
+
+Failed [55, 60, 61, 64, 65, 72, 72] at 1
+Still fail [60, 61, 64, 65, 72, 72]
+Couldn't fix [55, 61, 64, 65, 72, 72]
+
+Failed [64, 70, 72, 74, 76, 82, 85, 89] at 1
+Still fail [70, 72, 74, 76, 82, 85, 89]
+Couldn't fix [64, 72, 74, 76, 82, 85, 89]
+
+Failed [28, 34, 40, 42, 44, 45, 46, 51] at 1
+Still fail [34, 40, 42, 44, 45, 46, 51]
+Couldn't fix [28, 40, 42, 44, 45, 46, 51]
+
+Failed [19, 16, 15, 13, 16] at 4
+Still fail [19, 16, 15, 16]
+Ok [19, 16, 15, 13]
+
+Failed [30, 29, 27, 26, 26] at 4
+Ok [30, 29, 27, 26]
+
+Failed [78, 77, 74, 71, 70, 66] at 5
+Still fail [78, 77, 74, 71, 66]
+Ok [78, 77, 74, 71, 70]
+
+Failed [70, 68, 67, 66, 65, 62, 60, 55] at 7
+Still fail [70, 68, 67, 66, 65, 62, 55]
+Ok [70, 68, 67, 66, 65, 62, 60]
+
+Failed [74, 72, 70, 72, 71, 68, 67, 65] at 3
+Still fail [74, 72, 72, 71, 68, 67, 65]
+Couldn't fix [74, 72, 70, 71, 68, 67, 65]
+
+Failed [80, 79, 82, 80, 83] at 2
+Still fail [80, 82, 80, 83]
+Couldn't fix [80, 79, 80, 83]
+
+Failed [46, 43, 41, 38, 37, 38, 38] at 5
+Still fail [46, 43, 41, 38, 38, 38]
+Couldn't fix [46, 43, 41, 38, 37, 38]
+
+Failed [55, 54, 56, 55, 51] at 2
+Still fail [55, 56, 55, 51]
+Couldn't fix [55, 54, 55, 51]
+
+Failed [79, 77, 76, 74, 73, 74, 67] at 5
+Still fail [79, 77, 76, 74, 74, 67]
+Couldn't fix [79, 77, 76, 74, 73, 67]
+
+Failed [32, 30, 30, 29, 28, 25, 23] at 2
+Ok [32, 30, 29, 28, 25, 23]
+
+Failed [43, 42, 42, 41, 39, 37, 34, 36] at 2
+Still fail [43, 42, 41, 39, 37, 34, 36]
+Couldn't fix [43, 42, 41, 39, 37, 34, 36]
+
+Failed [30, 28, 26, 26, 24, 24] at 3
+Still fail [30, 28, 26, 24, 24]
+Couldn't fix [30, 28, 26, 24, 24]
+
+Failed [33, 31, 29, 29, 26, 22] at 3
+Still fail [33, 31, 29, 26, 22]
+Couldn't fix [33, 31, 29, 26, 22]
+
+Failed [94, 91, 89, 86, 86, 80] at 4
+Still fail [94, 91, 89, 86, 80]
+Couldn't fix [94, 91, 89, 86, 80]
+
+Failed [36, 34, 32, 30, 29, 26, 22, 25] at 6
+Still fail [36, 34, 32, 30, 29, 22, 25]
+Ok [36, 34, 32, 30, 29, 26, 25]
+
+Failed [31, 29, 27, 21, 17] at 3
+Still fail [31, 29, 21, 17]
+Couldn't fix [31, 29, 27, 17]
+
+Failed [60, 62, 60, 57, 55] at 2
+Still fail [60, 60, 57, 55]
+Couldn't fix [60, 62, 57, 55]
+
+Failed [92, 95, 94, 91, 94] at 2
+Still fail [92, 94, 91, 94]
+Couldn't fix [92, 95, 91, 94]
+
+Failed [66, 67, 64, 62, 62] at 2
+Still fail [66, 64, 62, 62]
+Couldn't fix [66, 67, 62, 62]
+
+Failed [67, 70, 67, 64, 60] at 2
+Still fail [67, 67, 64, 60]
+Couldn't fix [67, 70, 64, 60]
+
+Failed [49, 52, 51, 49, 47, 46, 41] at 2
+Still fail [49, 51, 49, 47, 46, 41]
+Couldn't fix [49, 52, 49, 47, 46, 41]
+
+Failed [94, 95, 97, 94, 93, 90] at 3
+Still fail [94, 95, 94, 93, 90]
+Couldn't fix [94, 95, 97, 93, 90]
+
+Failed [85, 86, 85, 84, 87, 86, 87] at 2
+Still fail [85, 85, 84, 87, 86, 87]
+Couldn't fix [85, 86, 84, 87, 86, 87]
+
+Failed [40, 43, 40, 39, 41, 38, 38] at 2
+Still fail [40, 40, 39, 41, 38, 38]
+Couldn't fix [40, 43, 39, 41, 38, 38]
+
+Failed [82, 83, 80, 83, 82, 78] at 2
+Still fail [82, 80, 83, 82, 78]
+Couldn't fix [82, 83, 83, 82, 78]
+
+Failed [95, 97, 99, 96, 90] at 3
+Still fail [95, 97, 96, 90]
+Couldn't fix [95, 97, 99, 90]
+
+Failed [94, 96, 95, 93, 93, 90] at 2
+Still fail [94, 95, 93, 93, 90]
+Couldn't fix [94, 96, 93, 93, 90]
+
+Failed [29, 31, 31, 28, 27, 30] at 2
+Still fail [29, 31, 28, 27, 30]
+Couldn't fix [29, 31, 28, 27, 30]
+
+Failed [49, 51, 49, 47, 45, 45, 44, 44] at 2
+Still fail [49, 49, 47, 45, 45, 44, 44]
+Couldn't fix [49, 51, 47, 45, 45, 44, 44]
+
+Failed [16, 19, 19, 16, 15, 13, 12, 8] at 2
+Still fail [16, 19, 16, 15, 13, 12, 8]
+Couldn't fix [16, 19, 16, 15, 13, 12, 8]
+
+Failed [12, 13, 13, 12, 5] at 2
+Still fail [12, 13, 12, 5]
+Couldn't fix [12, 13, 12, 5]
+
+Failed [59, 61, 57, 55, 54] at 2
+Ok [59, 57, 55, 54]
+
+Failed [34, 37, 36, 32, 34] at 2
+Still fail [34, 36, 32, 34]
+Couldn't fix [34, 37, 32, 34]
+
+Failed [45, 47, 43, 42, 41, 41] at 2
+Still fail [45, 43, 42, 41, 41]
+Couldn't fix [45, 47, 42, 41, 41]
+
+Failed [80, 81, 78, 77, 73, 70, 69, 65] at 2
+Still fail [80, 78, 77, 73, 70, 69, 65]
+Couldn't fix [80, 81, 77, 73, 70, 69, 65]
+
+Failed [88, 91, 90, 86, 79] at 2
+Still fail [88, 90, 86, 79]
+Couldn't fix [88, 91, 86, 79]
+
+Failed [60, 63, 60, 59, 56, 49, 48] at 2
+Still fail [60, 60, 59, 56, 49, 48]
+Couldn't fix [60, 63, 59, 56, 49, 48]
+
+Failed [83, 85, 83, 81, 80, 74, 72, 73] at 2
+Still fail [83, 83, 81, 80, 74, 72, 73]
+Couldn't fix [83, 85, 81, 80, 74, 72, 73]
+
+Failed [94, 95, 92, 87, 86, 83, 82, 82] at 2
+Still fail [94, 92, 87, 86, 83, 82, 82]
+Couldn't fix [94, 95, 87, 86, 83, 82, 82]
+
+Failed [67, 70, 69, 67, 60, 56] at 2
+Still fail [67, 69, 67, 60, 56]
+Couldn't fix [67, 70, 67, 60, 56]
+
+Failed [32, 34, 32, 26, 19] at 2
+Still fail [32, 32, 26, 19]
+Couldn't fix [32, 34, 26, 19]
+
+Failed [25, 25, 22, 21, 18] at 1
+Ok [25, 22, 21, 18]
+
+Failed [25, 25, 24, 23, 24] at 1
+Still fail [25, 24, 23, 24]
+Couldn't fix [25, 24, 23, 24]
+
+Failed [82, 82, 81, 80, 77, 74, 71, 71] at 1
+Still fail [82, 81, 80, 77, 74, 71, 71]
+Couldn't fix [82, 81, 80, 77, 74, 71, 71]
+
+Failed [87, 87, 85, 83, 79] at 1
+Still fail [87, 85, 83, 79]
+Couldn't fix [87, 85, 83, 79]
+
+Failed [27, 27, 26, 24, 17] at 1
+Still fail [27, 26, 24, 17]
+Couldn't fix [27, 26, 24, 17]
+
+Failed [66, 66, 69, 66, 63] at 1
+Still fail [66, 69, 66, 63]
+Couldn't fix [66, 69, 66, 63]
+
+Failed [73, 73, 70, 67, 64, 67, 66, 69] at 1
+Still fail [73, 70, 67, 64, 67, 66, 69]
+Couldn't fix [73, 70, 67, 64, 67, 66, 69]
+
+Failed [90, 90, 93, 90, 88, 88] at 1
+Still fail [90, 93, 90, 88, 88]
+Couldn't fix [90, 93, 90, 88, 88]
+
+Failed [77, 77, 74, 75, 71] at 1
+Still fail [77, 74, 75, 71]
+Couldn't fix [77, 74, 75, 71]
+
+Failed [57, 57, 56, 57, 54, 52, 50, 43] at 1
+Still fail [57, 56, 57, 54, 52, 50, 43]
+Couldn't fix [57, 56, 57, 54, 52, 50, 43]
+
+Failed [29, 29, 28, 25, 25, 22] at 1
+Still fail [29, 28, 25, 25, 22]
+Couldn't fix [29, 28, 25, 25, 22]
+
+Failed [52, 52, 50, 50, 53] at 1
+Still fail [52, 50, 50, 53]
+Couldn't fix [52, 50, 50, 53]
+
+Failed [19, 19, 19, 16, 14, 12, 9, 9] at 1
+Still fail [19, 19, 16, 14, 12, 9, 9]
+Couldn't fix [19, 19, 16, 14, 12, 9, 9]
+
+Failed [73, 73, 70, 69, 67, 67, 65, 61] at 1
+Still fail [73, 70, 69, 67, 67, 65, 61]
+Couldn't fix [73, 70, 69, 67, 67, 65, 61]
+
+Failed [96, 96, 93, 90, 88, 88, 82] at 1
+Still fail [96, 93, 90, 88, 88, 82]
+Couldn't fix [96, 93, 90, 88, 88, 82]
+
+Failed [18, 18, 14, 12, 10, 7, 6, 4] at 1
+Still fail [18, 14, 12, 10, 7, 6, 4]
+Couldn't fix [18, 14, 12, 10, 7, 6, 4]
+
+Failed [27, 27, 23, 22, 20, 19, 17, 19] at 1
+Still fail [27, 23, 22, 20, 19, 17, 19]
+Couldn't fix [27, 23, 22, 20, 19, 17, 19]
+
+Failed [21, 21, 20, 17, 15, 11, 11] at 1
+Still fail [21, 20, 17, 15, 11, 11]
+Couldn't fix [21, 20, 17, 15, 11, 11]
+
+Failed [92, 92, 89, 85, 82, 79, 75] at 1
+Still fail [92, 89, 85, 82, 79, 75]
+Couldn't fix [92, 89, 85, 82, 79, 75]
+
+Failed [38, 38, 37, 33, 31, 28, 22] at 1
+Still fail [38, 37, 33, 31, 28, 22]
+Couldn't fix [38, 37, 33, 31, 28, 22]
+
+Failed [15, 15, 13, 7, 4, 3, 2] at 1
+Still fail [15, 13, 7, 4, 3, 2]
+Couldn't fix [15, 13, 7, 4, 3, 2]
+
+Failed [58, 58, 53, 52, 55] at 1
+Still fail [58, 53, 52, 55]
+Couldn't fix [58, 53, 52, 55]
+
+Failed [70, 70, 69, 64, 64] at 1
+Still fail [70, 69, 64, 64]
+Couldn't fix [70, 69, 64, 64]
+
+Failed [39, 39, 37, 34, 33, 26, 23, 19] at 1
+Still fail [39, 37, 34, 33, 26, 23, 19]
+Couldn't fix [39, 37, 34, 33, 26, 23, 19]
+
+Failed [49, 49, 42, 41, 34] at 1
+Still fail [49, 42, 41, 34]
+Couldn't fix [49, 42, 41, 34]
+
+Failed [80, 76, 73, 70, 67] at 1
+Ok [76, 73, 70, 67]
+
+Failed [79, 75, 73, 70, 67, 70] at 1
+Still fail [75, 73, 70, 67, 70]
+Couldn't fix [79, 73, 70, 67, 70]
+
+Failed [27, 23, 20, 19, 18, 15, 12, 12] at 1
+Still fail [23, 20, 19, 18, 15, 12, 12]
+Couldn't fix [27, 20, 19, 18, 15, 12, 12]
+
+Failed [92, 88, 87, 84, 81, 78, 77, 73] at 1
+Still fail [88, 87, 84, 81, 78, 77, 73]
+Couldn't fix [92, 87, 84, 81, 78, 77, 73]
+
+Failed [81, 77, 75, 73, 71, 65] at 1
+Still fail [77, 75, 73, 71, 65]
+Couldn't fix [81, 75, 73, 71, 65]
+
+Failed [67, 63, 66, 65, 63] at 1
+Still fail [63, 66, 65, 63]
+Ok [67, 66, 65, 63]
+
+Failed [60, 56, 58, 55, 52, 54] at 1
+Still fail [56, 58, 55, 52, 54]
+Couldn't fix [60, 58, 55, 52, 54]
+
+Failed [98, 94, 96, 95, 95] at 1
+Still fail [94, 96, 95, 95]
+Couldn't fix [98, 96, 95, 95]
+
+Failed [87, 83, 86, 85, 84, 80] at 1
+Still fail [83, 86, 85, 84, 80]
+Couldn't fix [87, 86, 85, 84, 80]
+
+Failed [35, 31, 33, 31, 24] at 1
+Still fail [31, 33, 31, 24]
+Couldn't fix [35, 33, 31, 24]
+
+Failed [41, 37, 37, 34, 31] at 1
+Still fail [37, 37, 34, 31]
+Couldn't fix [41, 37, 34, 31]
+
+Failed [26, 22, 20, 17, 16, 16, 18] at 1
+Still fail [22, 20, 17, 16, 16, 18]
+Couldn't fix [26, 20, 17, 16, 16, 18]
+
+Failed [63, 59, 58, 58, 56, 56] at 1
+Still fail [59, 58, 58, 56, 56]
+Couldn't fix [63, 58, 58, 56, 56]
+
+Failed [96, 92, 89, 86, 86, 82] at 1
+Still fail [92, 89, 86, 86, 82]
+Couldn't fix [96, 89, 86, 86, 82]
+
+Failed [90, 86, 85, 84, 84, 77] at 1
+Still fail [86, 85, 84, 84, 77]
+Couldn't fix [90, 85, 84, 84, 77]
+
+Failed [22, 18, 14, 13, 10, 8, 6] at 1
+Still fail [18, 14, 13, 10, 8, 6]
+Couldn't fix [22, 14, 13, 10, 8, 6]
+
+Failed [71, 67, 66, 62, 64] at 1
+Still fail [67, 66, 62, 64]
+Couldn't fix [71, 66, 62, 64]
+
+Failed [71, 67, 65, 62, 60, 56, 56] at 1
+Still fail [67, 65, 62, 60, 56, 56]
+Couldn't fix [71, 65, 62, 60, 56, 56]
+
+Failed [97, 93, 90, 86, 82] at 1
+Still fail [93, 90, 86, 82]
+Couldn't fix [97, 90, 86, 82]
+
+Failed [35, 31, 27, 25, 19] at 1
+Still fail [31, 27, 25, 19]
+Couldn't fix [35, 27, 25, 19]
+
+Failed [96, 92, 89, 87, 80, 78, 76, 74] at 1
+Still fail [92, 89, 87, 80, 78, 76, 74]
+Couldn't fix [96, 89, 87, 80, 78, 76, 74]
+
+Failed [69, 65, 58, 57, 55, 53, 55] at 1
+Still fail [65, 58, 57, 55, 53, 55]
+Couldn't fix [69, 58, 57, 55, 53, 55]
+
+Failed [19, 15, 14, 8, 5, 5] at 1
+Still fail [15, 14, 8, 5, 5]
+Couldn't fix [19, 14, 8, 5, 5]
+
+Failed [72, 68, 67, 64, 62, 60, 54, 50] at 1
+Still fail [68, 67, 64, 62, 60, 54, 50]
+Couldn't fix [72, 67, 64, 62, 60, 54, 50]
+
+Failed [80, 76, 75, 70, 63] at 1
+Still fail [76, 75, 70, 63]
+Couldn't fix [80, 75, 70, 63]
+
+Failed [32, 27, 25, 24, 21] at 1
+Ok [27, 25, 24, 21]
+
+Failed [88, 83, 82, 80, 77, 75, 72, 74] at 1
+Still fail [83, 82, 80, 77, 75, 72, 74]
+Couldn't fix [88, 82, 80, 77, 75, 72, 74]
+
+Failed [82, 76, 73, 72, 72] at 1
+Still fail [76, 73, 72, 72]
+Couldn't fix [82, 73, 72, 72]
+
+Failed [87, 82, 81, 79, 76, 75, 71] at 1
+Still fail [82, 81, 79, 76, 75, 71]
+Couldn't fix [87, 81, 79, 76, 75, 71]
+
+Failed [99, 93, 90, 89, 86, 81] at 1
+Still fail [93, 90, 89, 86, 81]
+Couldn't fix [99, 90, 89, 86, 81]
+
+Failed [23, 18, 16, 15, 13, 12, 14, 13] at 1
+Still fail [18, 16, 15, 13, 12, 14, 13]
+Couldn't fix [23, 16, 15, 13, 12, 14, 13]
+
+Failed [82, 77, 75, 72, 69, 71, 74] at 1
+Still fail [77, 75, 72, 69, 71, 74]
+Couldn't fix [82, 75, 72, 69, 71, 74]
+
+Failed [21, 16, 13, 14, 11, 9, 9] at 1
+Still fail [16, 13, 14, 11, 9, 9]
+Couldn't fix [21, 13, 14, 11, 9, 9]
+
+Failed [67, 62, 60, 63, 60, 56] at 1
+Still fail [62, 60, 63, 60, 56]
+Couldn't fix [67, 60, 63, 60, 56]
+
+Failed [98, 92, 95, 93, 91, 88, 81] at 1
+Still fail [92, 95, 93, 91, 88, 81]
+Couldn't fix [98, 95, 93, 91, 88, 81]
+
+Failed [14, 9, 9, 8, 6, 3, 2] at 1
+Still fail [9, 9, 8, 6, 3, 2]
+Couldn't fix [14, 9, 8, 6, 3, 2]
+
+Failed [27, 20, 18, 18, 21] at 1
+Still fail [20, 18, 18, 21]
+Couldn't fix [27, 18, 18, 21]
+
+Failed [20, 13, 13, 11, 11] at 1
+Still fail [13, 13, 11, 11]
+Couldn't fix [20, 13, 11, 11]
+
+Failed [36, 30, 28, 26, 23, 23, 19] at 1
+Still fail [30, 28, 26, 23, 23, 19]
+Couldn't fix [36, 28, 26, 23, 23, 19]
+
+Failed [51, 46, 46, 45, 38] at 1
+Still fail [46, 46, 45, 38]
+Couldn't fix [51, 46, 45, 38]
+
+Failed [62, 57, 55, 51, 50, 48] at 1
+Still fail [57, 55, 51, 50, 48]
+Couldn't fix [62, 55, 51, 50, 48]
+
+Failed [45, 38, 34, 31, 33] at 1
+Still fail [38, 34, 31, 33]
+Couldn't fix [45, 34, 31, 33]
+
+Failed [24, 19, 17, 14, 10, 8, 8] at 1
+Still fail [19, 17, 14, 10, 8, 8]
+Couldn't fix [24, 17, 14, 10, 8, 8]
+
+Failed [88, 81, 77, 76, 74, 70] at 1
+Still fail [81, 77, 76, 74, 70]
+Couldn't fix [88, 77, 76, 74, 70]
+
+Failed [54, 47, 44, 40, 37, 35, 29] at 1
+Still fail [47, 44, 40, 37, 35, 29]
+Couldn't fix [54, 44, 40, 37, 35, 29]
+
+Failed [90, 83, 80, 78, 71, 68, 65] at 1
+Still fail [83, 80, 78, 71, 68, 65]
+Couldn't fix [90, 80, 78, 71, 68, 65]
+
+Failed [35, 30, 23, 20, 19, 22] at 1
+Still fail [30, 23, 20, 19, 22]
+Couldn't fix [35, 23, 20, 19, 22]
+
+Failed [76, 69, 63, 60, 58, 57, 57] at 1
+Still fail [69, 63, 60, 58, 57, 57]
+Couldn't fix [76, 63, 60, 58, 57, 57]
+
+Failed [81, 74, 72, 65, 62, 58] at 1
+Still fail [74, 72, 65, 62, 58]
+Couldn't fix [81, 72, 65, 62, 58]
+
+Failed [29, 24, 21, 20, 13, 10, 5] at 1
+Still fail [24, 21, 20, 13, 10, 5]
+Couldn't fix [29, 21, 20, 13, 10, 5]
+
+Failed [58, 55, 56, 56, 53] at 2
+Still fail [58, 56, 56, 53]
+Couldn't fix [58, 55, 56, 53]
+
+Failed [43, 40, 38, 33, 30] at 3
+Still fail [43, 40, 33, 30]
+Couldn't fix [43, 40, 38, 30]
+
+Failed [90, 86, 85, 86, 85, 84, 82, 84] at 1
+Still fail [86, 85, 86, 85, 84, 82, 84]
+Couldn't fix [90, 85, 86, 85, 84, 82, 84]
+
+Failed [46, 50, 53, 51, 52, 56] at 1
+Still fail [50, 53, 51, 52, 56]
+Couldn't fix [46, 53, 51, 52, 56]
+
+Failed [83, 82, 81, 79, 77, 73, 68] at 5
+Still fail [83, 82, 81, 79, 73, 68]
+Couldn't fix [83, 82, 81, 79, 77, 68]
+
+Failed [56, 60, 63, 66, 68, 70, 73, 77] at 1
+Still fail [60, 63, 66, 68, 70, 73, 77]
+Couldn't fix [56, 63, 66, 68, 70, 73, 77]
+
+Failed [48, 44, 43, 38, 36, 35, 31] at 1
+Still fail [44, 43, 38, 36, 35, 31]
+Couldn't fix [48, 43, 38, 36, 35, 31]
+
+Failed [61, 54, 53, 51, 52, 45] at 1
+Still fail [54, 53, 51, 52, 45]
+Couldn't fix [61, 53, 51, 52, 45]
+
+Failed [1, 4, 4, 7, 8, 10, 13] at 2
+Ok [1, 4, 7, 8, 10, 13]
+
+Failed [35, 41, 43, 48, 48] at 1
+Still fail [41, 43, 48, 48]
+Couldn't fix [35, 43, 48, 48]
+
+Failed [22, 25, 26, 27, 28, 31, 31] at 6
+Ok [22, 25, 26, 27, 28, 31]
+
+Failed [4, 8, 11, 11, 18] at 1
+Still fail [8, 11, 11, 18]
+Couldn't fix [4, 11, 11, 18]
+
+Failed [71, 73, 76, 80, 83] at 3
+Still fail [71, 73, 80, 83]
+Couldn't fix [71, 73, 76, 83]
+
+Failed [42, 47, 50, 51, 55, 57, 60] at 1
+Still fail [47, 50, 51, 55, 57, 60]
+Couldn't fix [42, 50, 51, 55, 57, 60]
+
+Failed [7, 7, 4, 7, 8, 9, 8] at 1
+Still fail [7, 4, 7, 8, 9, 8]
+Couldn't fix [7, 4, 7, 8, 9, 8]
+
+Failed [64, 64, 62, 61, 59, 60, 63] at 1
+Still fail [64, 62, 61, 59, 60, 63]
+Couldn't fix [64, 62, 61, 59, 60, 63]
+
+Failed [70, 66, 64, 62, 60, 63, 63] at 1
+Still fail [66, 64, 62, 60, 63, 63]
+Couldn't fix [70, 64, 62, 60, 63, 63]
+
+Failed [13, 10, 13, 18, 23] at 2
+Still fail [13, 13, 18, 23]
+Couldn't fix [13, 10, 18, 23]
+
+Failed [38, 38, 41, 40, 44] at 1
+Still fail [38, 41, 40, 44]
+Couldn't fix [38, 41, 40, 44]
+
+Failed [31, 34, 32, 29, 26, 26] at 2
+Still fail [31, 32, 29, 26, 26]
+Couldn't fix [31, 34, 29, 26, 26]
+
+Failed [46, 44, 46, 49, 51, 53, 60, 64] at 2
+Still fail [46, 46, 49, 51, 53, 60, 64]
+Couldn't fix [46, 44, 49, 51, 53, 60, 64]
+
+Failed [22, 29, 32, 33, 31, 33, 37] at 1
+Still fail [29, 32, 33, 31, 33, 37]
+Couldn't fix [22, 32, 33, 31, 33, 37]
+
+Failed [34, 34, 28, 26, 25, 24] at 1
+Still fail [34, 28, 26, 25, 24]
+Couldn't fix [34, 28, 26, 25, 24]
+
+Failed [92, 91, 88, 90, 90] at 3
+Still fail [92, 91, 90, 90]
+Couldn't fix [92, 91, 88, 90]
+
+Failed [18, 17, 19, 20, 23, 23] at 2
+Still fail [18, 19, 20, 23, 23]
+Couldn't fix [18, 17, 20, 23, 23]
+
+Failed [31, 31, 28, 24, 22, 21, 16] at 1
+Still fail [31, 28, 24, 22, 21, 16]
+Couldn't fix [31, 28, 24, 22, 21, 16]
+
+Failed [84, 83, 80, 76, 76] at 3
+Still fail [84, 83, 76, 76]
+Couldn't fix [84, 83, 80, 76]
+
+Failed [60, 61, 64, 65, 68, 72] at 5
+Still fail [60, 61, 64, 65, 72]
+Ok [60, 61, 64, 65, 68]
+
+Failed [57, 54, 58, 60, 63, 66] at 2
+Ok [57, 58, 60, 63, 66]
+
+Failed [52, 54, 53, 48, 42] at 2
+Still fail [52, 53, 48, 42]
+Couldn't fix [52, 54, 48, 42]
+
+Failed [86, 83, 80, 77, 75, 71, 69] at 5
+Still fail [86, 83, 80, 77, 71, 69]
+Couldn't fix [86, 83, 80, 77, 75, 69]
+
+Failed [50, 46, 45, 44, 47, 45, 42] at 1
+Still fail [46, 45, 44, 47, 45, 42]
+Couldn't fix [50, 45, 44, 47, 45, 42]
+
+Failed [42, 42, 45, 43, 41, 38, 35, 29] at 1
+Still fail [42, 45, 43, 41, 38, 35, 29]
+Couldn't fix [42, 45, 43, 41, 38, 35, 29]
+
+Failed [37, 34, 37, 40, 40, 44] at 2
+Still fail [37, 37, 40, 40, 44]
+Couldn't fix [37, 34, 40, 40, 44]
+
+Failed [96, 95, 94, 92, 93, 90, 84] at 4
+Still fail [96, 95, 94, 93, 90, 84]
+Couldn't fix [96, 95, 94, 92, 90, 84]
+
+Failed [7, 4, 7, 9, 7, 8, 15] at 2
+Still fail [7, 7, 9, 7, 8, 15]
+Couldn't fix [7, 4, 9, 7, 8, 15]
+
+Failed [58, 52, 55, 53, 53] at 1
+Still fail [52, 55, 53, 53]
+Couldn't fix [58, 55, 53, 53]
+
+Failed [37, 41, 43, 50, 52, 54, 52] at 1
+Still fail [41, 43, 50, 52, 54, 52]
+Couldn't fix [37, 43, 50, 52, 54, 52]
+
+Failed [60, 64, 65, 69, 70, 73, 74, 74] at 1
+Still fail [64, 65, 69, 70, 73, 74, 74]
+Couldn't fix [60, 65, 69, 70, 73, 74, 74]
+
+Failed [61, 61, 58, 61, 59, 56, 53, 49] at 1
+Still fail [61, 58, 61, 59, 56, 53, 49]
+Couldn't fix [61, 58, 61, 59, 56, 53, 49]
+
+Failed [44, 44, 41, 40, 37, 31, 27] at 1
+Still fail [44, 41, 40, 37, 31, 27]
+Couldn't fix [44, 41, 40, 37, 31, 27]
+
+Failed [46, 50, 50, 53, 55, 56, 54] at 1
+Still fail [50, 50, 53, 55, 56, 54]
+Couldn't fix [46, 50, 53, 55, 56, 54]
+
+Failed [25, 27, 28, 27, 25, 23, 21, 20] at 3
+Still fail [25, 27, 27, 25, 23, 21, 20]
+Couldn't fix [25, 27, 28, 25, 23, 21, 20]
+
+Failed [96, 96, 93, 91, 88, 87, 81, 74] at 1
+Still fail [96, 93, 91, 88, 87, 81, 74]
+Couldn't fix [96, 93, 91, 88, 87, 81, 74]
+
+Failed [80, 80, 81, 79, 76] at 1
+Still fail [80, 81, 79, 76]
+Couldn't fix [80, 81, 79, 76]
+
+Failed [53, 58, 65, 66, 63] at 1
+Still fail [58, 65, 66, 63]
+Couldn't fix [53, 65, 66, 63]
+
+Failed [82, 75, 74, 76, 75, 71] at 1
+Still fail [75, 74, 76, 75, 71]
+Couldn't fix [82, 74, 76, 75, 71]
+
+Failed [12, 11, 16, 18, 18] at 2
+Still fail [12, 16, 18, 18]
+Couldn't fix [12, 11, 18, 18]
+
+Failed [5, 9, 11, 12, 15, 20, 24] at 1
+Still fail [9, 11, 12, 15, 20, 24]
+Couldn't fix [5, 11, 12, 15, 20, 24]
+
+Failed [36, 32, 30, 30, 28, 25, 26] at 1
+Still fail [32, 30, 30, 28, 25, 26]
+Couldn't fix [36, 30, 30, 28, 25, 26]
+
+Failed [15, 19, 21, 26, 28, 28] at 1
+Still fail [19, 21, 26, 28, 28]
+Couldn't fix [15, 21, 26, 28, 28]
+
+Failed [61, 59, 62, 63, 65, 66, 69, 72] at 2
+Ok [61, 62, 63, 65, 66, 69, 72]
+
+Failed [17, 22, 24, 25, 27, 29] at 1
+Ok [22, 24, 25, 27, 29]
+
+Failed [76, 74, 73, 70, 64, 64] at 4
+Still fail [76, 74, 73, 64, 64]
+Couldn't fix [76, 74, 73, 70, 64]
+
+Failed [76, 72, 70, 66, 64, 61, 57] at 1
+Still fail [72, 70, 66, 64, 61, 57]
+Couldn't fix [76, 70, 66, 64, 61, 57]
+
+Failed [12, 14, 13, 10, 7, 2, 3] at 2
+Still fail [12, 13, 10, 7, 2, 3]
+Couldn't fix [12, 14, 10, 7, 2, 3]
+
+Failed [24, 27, 26, 24, 24, 23] at 2
+Still fail [24, 26, 24, 24, 23]
+Couldn't fix [24, 27, 24, 24, 23]
+
+Failed [11, 9, 10, 10, 10] at 2
+Still fail [11, 10, 10, 10]
+Couldn't fix [11, 9, 10, 10]
+
+Failed [88, 84, 80, 79, 78, 73] at 1
+Still fail [84, 80, 79, 78, 73]
+Couldn't fix [88, 80, 79, 78, 73]
+
+Failed [90, 87, 89, 89, 96] at 2
+Still fail [90, 89, 89, 96]
+Couldn't fix [90, 87, 89, 96]
+
+Failed [69, 67, 70, 73, 70, 73, 74] at 2
+Still fail [69, 70, 73, 70, 73, 74]
+Couldn't fix [69, 67, 73, 70, 73, 74]
+
+Failed [63, 67, 69, 74, 75, 78] at 1
+Still fail [67, 69, 74, 75, 78]
+Couldn't fix [63, 69, 74, 75, 78]
+
+Failed [27, 23, 19, 17, 15, 13, 10] at 1
+Still fail [23, 19, 17, 15, 13, 10]
+Couldn't fix [27, 19, 17, 15, 13, 10]
+
+Failed [46, 52, 53, 54, 54, 56, 62] at 1
+Still fail [52, 53, 54, 54, 56, 62]
+Couldn't fix [46, 53, 54, 54, 56, 62]
+
+Failed [41, 35, 33, 31, 30, 25, 25] at 1
+Still fail [35, 33, 31, 30, 25, 25]
+Couldn't fix [41, 33, 31, 30, 25, 25]
+
+Failed [8, 7, 11, 12, 17] at 2
+Still fail [8, 11, 12, 17]
+Couldn't fix [8, 7, 12, 17]
+
+Failed [6, 6, 6, 8, 9, 12, 13, 13] at 1
+Still fail [6, 6, 8, 9, 12, 13, 13]
+Couldn't fix [6, 6, 8, 9, 12, 13, 13]
+
+Failed [13, 20, 25, 28, 30, 33] at 1
+Still fail [20, 25, 28, 30, 33]
+Couldn't fix [13, 25, 28, 30, 33]
+
+Failed [89, 84, 82, 81, 80] at 1
+Ok [84, 82, 81, 80]
+
+Failed [41, 48, 52, 53, 55, 55] at 1
+Still fail [48, 52, 53, 55, 55]
+Couldn't fix [41, 52, 53, 55, 55]
+
+thread 'tests::full_star2' panicked at src/main.rs:131:9:
+assertion `left == right` failed
+  left: 709
+ right: 23529853
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    tests::full_star2
+
+test result: FAILED. 3 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
