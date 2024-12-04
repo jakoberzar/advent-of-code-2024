@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"os"
 	"regexp"
 	"strconv"
+
+	"github.com/jakoberzar/advent-of-code-2024/internal/utils"
 )
 
 const SIMPLE_INPUT = "./../../inputs/day-03/simple.txt"
@@ -48,10 +49,5 @@ func star2(input string) (sum int) {
 }
 
 func readInput(path string) string {
-	b, err := os.ReadFile(path)
-	if err != nil {
-		fmt.Print(err)
-		// TODO: Handle errors
-	}
-	return string(b)
+	return utils.ReadFileOrDie(path)
 }

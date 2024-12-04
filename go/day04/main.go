@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"os"
 	"strings"
 
 	"github.com/jakoberzar/advent-of-code-2024/internal/utils"
@@ -94,11 +93,6 @@ func star2(input []string) (count int) {
 }
 
 func readInput(path string) (lines []string) {
-	b, err := os.ReadFile(path)
-	if err != nil {
-		fmt.Print(err)
-		// TODO: Handle errors
-	}
-	s := strings.TrimSpace(string(b))
+	s := utils.ReadFileOrDie(path)
 	return strings.Split(s, "\n")
 }
