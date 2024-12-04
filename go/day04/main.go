@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"os"
 	"strings"
+
+	"github.com/jakoberzar/advent-of-code-2024/internal/utils"
 )
 
 const SIMPLE_INPUT = "./../../inputs/day-04/simple.txt"
@@ -19,15 +21,15 @@ func star1(input []string) (count int) {
 	maxY := len(input)
 	maxX := len(input[0])
 	len := 4
-	var directions = []Direction{
-		Up{MaxY: maxY, MaxX: maxX, Len: len},
-		Left{MaxY: maxY, MaxX: maxX, Len: len},
-		Down{MaxY: maxY, MaxX: maxX, Len: len},
-		Right{MaxY: maxY, MaxX: maxX, Len: len},
-		LeftUp{MaxY: maxY, MaxX: maxX, Len: len},
-		RightUp{MaxY: maxY, MaxX: maxX, Len: len},
-		LeftDown{MaxY: maxY, MaxX: maxX, Len: len},
-		RightDown{MaxY: maxY, MaxX: maxX, Len: len},
+	var directions = []utils.Direction{
+		utils.Up{MaxY: maxY, MaxX: maxX, Len: len},
+		utils.Left{MaxY: maxY, MaxX: maxX, Len: len},
+		utils.Down{MaxY: maxY, MaxX: maxX, Len: len},
+		utils.Right{MaxY: maxY, MaxX: maxX, Len: len},
+		utils.LeftUp{MaxY: maxY, MaxX: maxX, Len: len},
+		utils.RightUp{MaxY: maxY, MaxX: maxX, Len: len},
+		utils.LeftDown{MaxY: maxY, MaxX: maxX, Len: len},
+		utils.RightDown{MaxY: maxY, MaxX: maxX, Len: len},
 	}
 	for y := 0; y < maxY; y++ {
 		for x := 0; x < maxX; x++ {
@@ -60,10 +62,10 @@ func star2(input []string) (count int) {
 	maxY := len(input)
 	maxX := len(input[0])
 	len := 2
-	leftUp := LeftUp{MaxY: maxY, MaxX: maxX, Len: len}
-	rightUp := RightUp{MaxY: maxY, MaxX: maxX, Len: len}
-	leftDown := LeftDown{MaxY: maxY, MaxX: maxX, Len: len}
-	rightDown := RightDown{MaxY: maxY, MaxX: maxX, Len: len}
+	leftUp := utils.LeftUp{MaxY: maxY, MaxX: maxX, Len: len}
+	rightUp := utils.RightUp{MaxY: maxY, MaxX: maxX, Len: len}
+	leftDown := utils.LeftDown{MaxY: maxY, MaxX: maxX, Len: len}
+	rightDown := utils.RightDown{MaxY: maxY, MaxX: maxX, Len: len}
 	for y := 0; y < maxY; y++ {
 		for x := 0; x < maxX; x++ {
 			if input[y][x] == 'A' {

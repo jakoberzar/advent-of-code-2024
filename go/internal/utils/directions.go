@@ -1,4 +1,4 @@
-package main
+package utils
 
 type Direction interface {
 	Eligible(x, y int) bool
