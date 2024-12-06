@@ -13,3 +13,7 @@ func ReadFileOrDie(path string) string {
 	}
 	return strings.TrimSpace(string(b))
 }
+
+func ReadLinesOrDie(path string) []string {
+	return strings.Split(ReadFileOrDie(path), "\n")
+}
