@@ -8,5 +8,6 @@ Solutions will primarily be in Go.
 | 2   | Problem Dampener |     | ✔️   |
 | 3   | Mul()            | ✔️  |      |
 | 4   | XMAS Grid        | ✔️  |      |
-| 5   | Ordering pages   | ✔️  |      |
+| 5   | Ordering Pages   | ✔️  |      |
 | 6   | Guard            | ✔️  |      |
+| 7   | Smooth Operators | ✔️  |      |
