@@ -13,9 +13,9 @@ const SIMPLE2_INPUT = "./../../inputs/day-03/simple2.txt"
 const FULL_INPUT = "./../../inputs/day-03/full.txt"
 
 func main() {
-	s := readInput(FULL_INPUT)
-	fmt.Printf("Result of star 1 is %d\n", star1(s))
-	fmt.Printf("Result of star 2 is %d\n", star2(s))
+	input := readInput(FULL_INPUT)
+	fmt.Printf("Result of star 1 is %d\n", star1(input))
+	fmt.Printf("Result of star 2 is %d\n", star2(input))
 }
 
 func star1(input string) (sum int) {
