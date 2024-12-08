@@ -28,7 +28,7 @@ type Group struct {
 func main() {
 	input := readInput(FULL_INPUT)
 	fmt.Printf("Result of star 1 is %d\n", star1(input))
-	// fmt.Printf("Result of star 2 is %d\n", star2(input))
+	fmt.Printf("Result of star 2 is %d\n", star2(input))
 }
 
 func star1(input []string) (count int) {
