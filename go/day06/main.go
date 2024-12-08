@@ -26,12 +26,10 @@ func star1(grid Grid) (count int) {
 	for y := 0; y < height; y++ {
 		for x := 0; x < width; x++ {
 			char := grid[y][x]
-			// fmt.Printf("%c", char)
 			if char == 'X' || char == '^' {
 				count += 1
 			}
 		}
-		// fmt.Println()
 	}
 	return
 }
@@ -101,10 +99,6 @@ func star2(grid Grid) (count int) {
 	curX, curY := findGuard(grid)
 	turn := 0
 	obstacles := make([]ObstacleFound, 0)
-	// obstaclesAdded := make(map[int]map[int]bool)
-	// for y := 0; y < len(grid); y++ {
-	// 	obstaclesAdded[y] = make(map[int]bool)
-	// }
 	for directions[dirIdx].Eligible(curX, curY) {
 		nextX, nextY := directions[dirIdx].Next(curX, curY)
 		if grid[nextY][nextX] == '#' {
@@ -117,7 +111,6 @@ func star2(grid Grid) (count int) {
 		if grid[nextY][nextX] == '.' {
 			// Try putting an obstacle here
 			if obstacleMakesALoop(curY, curX, nextY, nextX, turn, dirIdx, grid, obstacles, directions) {
-				// obstaclesAdded[nextY][nextX] = true
 				count += 1
 			}
 		}
