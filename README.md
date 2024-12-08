@@ -11,3 +11,4 @@ Solutions will primarily be in Go.
 | 5   | Ordering Pages   | ✔️  |      |
 | 6   | Guard            | ✔️  |      |
 | 7   | Smooth Operators | ✔️  |      |
+| 8   | Choco Antennas   | ✔️  |      |
